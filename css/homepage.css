@@ -146,6 +146,7 @@ nav ul li button:hover {
   font-size: 1.5rem;
   color: #ff4081;
   transition: color 0.3s;
+  cursor: pointer;
 }
 
 body.dark-mode #themeToggle i {
@@ -205,7 +206,7 @@ ul {
   align-items: center;
   gap: 20px;
   text-align: center;
-  background-image: linear-gradient(to right, #11071f, #11071f);
+  background: #11071f;
   box-shadow: 1px 1px 0px 2px #fff;
   color: #fff;
   font-weight: 500;
@@ -214,6 +215,7 @@ ul {
   padding: 20px 10px;
   border-radius: 5px;
   transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
 
 .goals-list:hover {
