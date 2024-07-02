@@ -26,6 +26,9 @@ body.dark-mode {
 header img {
   border-radius: 50%;
   height: auto;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
   width: auto;
   transition: transform 0.3s;
 }
